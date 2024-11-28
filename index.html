@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/60s-scoreboard" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="score">
+                <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button onclick="addHomePoints(1)">+1</button>
+                <button onclick="addHomePoints(2)">+2</button>
+                <button onclick="addHomePoints(3)">+3</button>
+            </div>
+            <div class="score">
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button onclick="addGuestPoints(1)">+1</button>
+                <button onclick="addGuestPoints(2)">+2</button>
+                <button onclick="addGuestPoints(3)">+3</button>
+            </div>
+        </div>
+        <div class="button-container">
+            <button class="newgame" onclick="newGame()">New Game</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

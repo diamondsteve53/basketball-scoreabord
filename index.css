@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    text-align: center;
+}
+
+.score h3 {
+    font-size: 30px;
+}
+
+.score h2 {
+    background-color: black;
+    padding: 10px;
+    font-size: 50px;
+    font-family: '60s Scoreboard', sans-serif;
+    color: darkred;
+}
+
+.score button {
+    width: 40px;
+    height: 40px;
+    padding: 0px;
+    border: 1px solid blue;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: '60s Scoreboard', sans-serif;
+}
+
+.button-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.button-container button {
+    padding: 10px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: '60s Scoreboard', sans-serif;
+}
