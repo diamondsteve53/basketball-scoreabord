@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color:rgb(52, 52, 79);
 }
 
 .container {
@@ -13,6 +14,7 @@ body {
 
 .score h3 {
     font-size: 30px;
+    color: white;
 }
 
 .score h2 {
@@ -27,10 +29,12 @@ body {
     width: 40px;
     height: 40px;
     padding: 0px;
-    border: 1px solid blue;
+    border: 1px solid rgb(116, 116, 119);
     border-radius: 3px;
     font-size: 15px;
+    color: rgb(116, 116, 119);
     font-family: '60s Scoreboard', sans-serif;
+    background-color: transparent;
 }
 
 .button-container {
@@ -42,6 +46,8 @@ body {
     padding: 10px;
     background-color: red;
     border: 1px solid red;
+    font-weight: bold;
+    color: white;
     border-radius: 3px;
     font-size: 15px;
     font-family: '60s Scoreboard', sans-serif;
